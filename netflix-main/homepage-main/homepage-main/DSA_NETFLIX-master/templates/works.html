@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/works.css') }}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo-and-nav">
+            <div class="logo">Codecks</div>
+            <ul class="nav-links">
+                <li><a href="{{ url_for('homepage') }}">Home</a></li>
+                <li><a href="{{ url_for('profile') }}">Profile</a></li>
+                <li><a href="{{ url_for('works') }}">Works</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- My List Section -->
+    <section class="my-list">
+    <h2>My List</h2>
+    <div class="inner-container">
+        <div class="list-item">
+            <img src="https://via.placeholder.com/200x300?text=Law+%26+Order" alt="Law and Order">
+            <div class="description">A show about justice and order in the courtroom.</div>
+        </div>
+        <div class="list-item">
+            <img src="https://via.placeholder.com/200x300?text=My+Hero+Academia" alt="My Hero Academia">
+            <div class="description">A world of heroes and powerful quirks.</div>
+        </div>
+        <div class="list-item">
+            <img src="https://via.placeholder.com/200x300?text=The+Good+Place" alt="The Good Place">
+            <div class="description">A humorous take on life and the afterlife.</div>
+        </div>
+        <div class="list-item">
+            <img src="https://via.placeholder.com/200x300?text=Closing+In" alt="Closing In">
+            <div class="description">A suspenseful thriller about secrets unfolding.</div>
+        </div>
+    </div>
+</section>
+
+<!-- Second List Section -->
+<section class="second-list">
+    <h2>Another List</h2>
+    <div class="inner-container">
+        <!-- First Item from My List -->
+        <div class="list-item">
+            <img src="https://via.placeholder.com/200x300?text=Law+%26+Order" alt="Law and Order">
+            <div class="description">A show about justice and order in the courtroom.</div>
+        </div>
+        <!-- Second Item from My List -->
+        <div class="list-item">
+            <img src="https://via.placeholder.com/200x300?text=My+Hero+Academia" alt="My Hero Academia">
+            <div class="description">A world of heroes and powerful quirks.</div>
+        </div>
+    </div>
+</section>
+</html>
